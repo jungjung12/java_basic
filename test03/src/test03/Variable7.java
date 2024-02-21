@@ -19,7 +19,7 @@ public class Variable7 {
 		System.out.println("height : "+height2.getClass().getName());
 		System.out.println("weight : "+weight2.getClass().getName());
 //		primitive type => Wrapper type = boxing *=래퍼(포장)
-//		Wrapper type => primitive type = unboxingprimitive type
+//		Wrapper type => primitive type = unboxing primitive type
 		
 	}
 

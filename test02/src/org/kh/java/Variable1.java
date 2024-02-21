@@ -15,8 +15,8 @@ public class Variable1 {
 			double h = 3.14;			//8byte
 			System.out.println("byte : "+Byte.MIN_VALUE+"~" +Byte.MAX_VALUE);
 			System.out.println("short : "+Short.MIN_VALUE+"~" +Short.MAX_VALUE);
-			System.out.println("char : "+Char.MIN_VALUE+"~" +Char.MAX_VALUE);
-			System.out.println("int : "+Int.MIN_VALUE+"~" +Int.MAX_VALUE);
+//			System.out.println("char : "+Char.MIN_VALUE+"~" +Char.MAX_VALUE);
+//			System.out.println("int : "+Int.MIN_VALUE+"~" +Int.MAX_VALUE);
 			System.out.println("float : "+Float.MIN_VALUE+"~" +Float.MAX_VALUE);
 			System.out.println("long : "+Long.MIN_VALUE+"~" +Long.MAX_VALUE);
 			System.out.println("double : "+Double.MIN_VALUE+"~" +Double.MAX_VALUE);

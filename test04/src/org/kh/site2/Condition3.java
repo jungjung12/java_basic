@@ -14,14 +14,14 @@ public class Condition3 {
 		System.out.printf("%n당신의 점수는 %d점 입니다.", point);
 		if(point>=90) {
 			result = 'A';
-		}if else(point>=80)
+		} else if(point>=80) {
 			result = 'B';
-	}if else(point>=70)
-		result = 'C';
-}if else(point>=60)
-result = 'D';
-		}else {
+		} else if (point>=70) {
+			result = 'C';
+		} else if(point>=60) {
+			result = 'D';
+		} else {
 			result = 'F';
+		}	
 	}
-
 }

@@ -9,7 +9,7 @@ public class Variable4 {
 		double weigth = 52;
 		char init = 'l';
 		
-		System.out.printf("%n이름 : \" %s", name);
+		System.out.printf("%n이름 : %s", name);
 		System.out.printf("%n나이 : %d", age);
 		System.out.printf("%n키 : %f", height);
 		System.out.printf("%n체중 : %f", weigth);
