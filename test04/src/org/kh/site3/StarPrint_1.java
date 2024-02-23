@@ -1,8 +1,8 @@
 package org.kh.site3;
 
-public class StarPrint_1 {
-
-	public static void main(String[] args) {
+public/*접근제어자*/ class StarPrint_1/*클래스명*/ {
+	/*접근제어자 생성자함수() {객체생성코드}*		/
+	public static/*지시자*/ void/*반환타입*/ main(String[] args)/*메소드명*/ {
 			/*1.
 			 *******
 			 *******
@@ -49,12 +49,12 @@ public class StarPrint_1 {
 			     ** 
 			      */
 		for(int i=0;i<=5;i++)	{
-			for(int s=i*2-1;s<=4;s++)	{
-				System.out.print("\t");
 			}for(int j=0+1;j<=0;j++)	{
 				System.out.print("*");
+			}for(int s=0;s<=4;s++)	{
+					System.out.print(" ");
 			}System.out.println();
 		}
 
 	}
-}
+
