@@ -16,5 +16,10 @@ public class Notice {
 		this.resdate = resdate;
 		this.visited = visited;
 	}
+	@Override
+	public String toString() {
+		return "Notice [bno=" + bno + ", title=" + title + ", uname=" + uname + ", content=" + content + ", resdate="
+				+ resdate + ", visited=" + visited + "]";
+	}
 	
 }

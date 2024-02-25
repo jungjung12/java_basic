@@ -7,7 +7,9 @@ public class Board {
 	private String content;
 	private String resdate;
 	private int visited;
-	public Board () {}
+	
+	 public Board() {}
+	 
 	public Board (int bno)	{
 		this.bno = bno;
 	}

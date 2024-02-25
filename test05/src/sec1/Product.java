@@ -12,11 +12,20 @@ public class Product {
 		System.out.println("제품정보");
 	}
 	
+	public void print(int amount)	{
+		System.out.println("제품수량 : "+amount);
+	}
+	
 	public void print(String pname)	{
 		System.out.println("제품이름 : "+pname);
 	}
 	
 	public void print(String pname, int amount)	{
+		System.out.println("제품이름 : "+pname);
+		System.out.println("제품수량 : "+amount);
+	}
+	
+	public void print(int amount, String pname)	{
 		System.out.println("제품이름 : "+pname);
 		System.out.println("제품수량 : "+amount);
 	}

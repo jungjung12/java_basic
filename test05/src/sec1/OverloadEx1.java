@@ -6,7 +6,9 @@ public class OverloadEx1 {
 		Product pro = new Product();
 		pro.print();
 		pro.print("이동규");
-		pro.print();
+		pro.print(1);
+		pro.print("이동규", 2);
+		pro.print(3, "이동규");
 	}
 
 }

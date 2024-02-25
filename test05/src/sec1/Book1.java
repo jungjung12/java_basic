@@ -7,7 +7,30 @@ public class Book1 {
 	private String author;
 	private String pub;
 	
-//	public void 
+//	교재명(bname), 교재가격(price), 저자(author)
+	
+	public void print()	{
+		System.out.println("교재 정보");
+	}
+	
+	public void print(String bnamr)	{
+		System.out.println("교재명 :"+bname);
+	}
+	
+	public void print(int price) {
+		System.out.println("교재 가격 :"+price);
+	}
+	
+	public void print(String bnamr, int price)	{
+		System.out.println("교재명 :"+bname);
+		System.out.println("교재 가격 :"+price);
+	}
+	
+	public void print(String bnamr, int price, String author)	{
+		System.out.println("교재명 :"+bname);
+		System.out.println("교재 가격 :"+price);
+		System.out.println("저자 :"+author+"\n");
+	}
 	
 	public int getBno() {
 		return bno;
